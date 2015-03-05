@@ -1,0 +1,27 @@
+{
+  "name": "hapi-persona",
+  "description": "Persona login for a Hapi site.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": "https://github.com/pdehaan/hapi-persona/issues",
+  "dependencies": {
+    "browserid-verify": "0.1.2",
+    "hapi": "8.2.0",
+    "nunjucks-hapi": "1.1.0",
+    "require-hapiroutes": "0.1.7"
+  },
+  "homepage": "https://github.com/pdehaan/hapi-persona",
+  "keywords": [
+    "hapi",
+    "persona",
+    "login"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": "pdehaan/hapi-persona.git",
+  "scripts": {
+    "prestart": "npm test",
+    "start": "node index",
+    "test": "eslint ."
+  }
+}

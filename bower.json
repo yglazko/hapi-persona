@@ -1,0 +1,22 @@
+{
+  "name": "hapi-persona",
+  "main": "index.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/pdehaan/hapi-persona",
+  "authors": [
+    "Peter deHaan <peter@deseloper.com>"
+  ],
+  "description": "Persona login for a Hapi site.",
+  "license": "WTFPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
