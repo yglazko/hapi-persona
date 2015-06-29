@@ -15,11 +15,6 @@ module.exports = [
     handler: function (request, reply) {
       var assertion = request.payload.assertion;
       var audience = request.info.host;
-      //I'm trying to change the view with no luck... WHYYYY.... WHYYYYYYY
-      reply.view('home', {
-        msg: 'WHAT THE HECK IS GOING ONNNN',
-        btn: 'I am a noob ok?'
-      });
 
       verify(assertion, audience, function(err, email, response) {
         if (err) {

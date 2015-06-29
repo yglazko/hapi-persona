@@ -21,7 +21,8 @@ $(function () {
           assertion: assertion
         },
         success: function(res, status, xhr) {
-          alert('You\'ve been logged in, son!');
+          alert('Welcome to the Checklist.');
+          window.location.replace('/checklist');
         },
         error: function(xhr, status, err) {
           console.error(err);
@@ -36,7 +37,8 @@ $(function () {
         url: '/auth/logout',
         success: function(res, status, xhr) {
           currentUser = null;
-          window.location.reload();
+          //This isn't working for some reason
+          window.location.replace('/home');
         },
         error: function(xhr, status, err) {
           console.error(err);
