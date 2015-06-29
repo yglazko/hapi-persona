@@ -5,12 +5,12 @@
   "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
   "bugs": "https://github.com/pdehaan/hapi-persona/issues",
   "dependencies": {
-    "browserid-verify": "0.1.2",
-    "hapi": "8.2.0",
-    "nunjucks-hapi": "1.1.0",
-    "require-hapiroutes": "0.1.7"
+    "browserid-verify": "^0.1.2",
+    "hapi": "^8.2.0",
+    "nunjucks-hapi": "^1.1.0",
+    "require-hapiroutes": "^0.1.7"
   },
-  "homepage": "https://github.com/pdehaan/hapi-persona",
+  "homepage": "https://github.com/yglazko/hapi-persona",
   "keywords": [
     "hapi",
     "persona",
@@ -18,7 +18,7 @@
   ],
   "license": "WTFPL",
   "main": "index.js",
-  "repository": "pdehaan/hapi-persona.git",
+  "repository": "yglazko/hapi-persona.git",
   "scripts": {
     "prestart": "npm test",
     "start": "node index",

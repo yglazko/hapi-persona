@@ -6,7 +6,8 @@ module.exports = [
     path: '/',
     handler: function (request, reply) {
       reply.view('home', {
-        msg: 'Hello, world!'
+        msg: 'Welcome to the Q.A. Checklist',
+        btn: 'I am not really sure what I am doing.. oh well :)'
       });
     }
   }
